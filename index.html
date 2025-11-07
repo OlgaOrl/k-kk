@@ -12,7 +12,11 @@
     <button>Arva</button>
     <script>
         const number = Math.floor(Math.random() * 10) + 1; 
-        alert(Math.random());
+        //if i push the button write alert text Hello World
+        const button = document.querySelector('button');
+        button.addEventListener('click', function() {
+            alert('Hello World');
+        });
     </script>
 </body> 
 </html>
